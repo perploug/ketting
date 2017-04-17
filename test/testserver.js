@@ -4,6 +4,9 @@ const logger = require('koa-logger')
 const fs = require('fs');
 const app = new Koa();
 
+// Making sure the Fetch API works
+require('isomorphic-fetch');
+
 // Log to console
 app.use(logger());
 
