@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/evert/restl#readme",
   "dependencies": {
-    "bluebird": "^3.4.7",
     "isomorphic-fetch": "^2.2.1",
     "node-fetch": "^1.6.3",
     "request": "^2.79.0",

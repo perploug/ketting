@@ -1,8 +1,8 @@
 module.exports = {
     "env": {
-        "browser": true,
-        "commonjs": true,
-        "node": true
+      "browser": true,
+      "commonjs": true,
+      "node": true
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -22,5 +22,8 @@ module.exports = {
             "error",
             "always"
         ]
+    },
+    "globals" : {
+        "Promise": true
     }
 };
