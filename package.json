@@ -4,7 +4,7 @@
   "description": "Opiniated HAL client.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint lib/ && mocha"
+    "test": "eslint lib/ && nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,7 @@
     "koa-logger": "^2.0.1",
     "koa-path-match": "^2.0.0",
     "mocha": "^3.2.0",
-    "webpack": "^2.4.1"
+    "webpack": "^2.4.1",
+    "nyc": "^10.2.0"
   }
 }
